@@ -1,0 +1,31 @@
+{
+  "validation_rules": {
+    "mandatory_fields": [
+      "transaction_id",
+      "account_id", 
+      "amount",
+      "currency",
+      "timestamp"
+    ],
+    "amount_validation": {
+      "min_value": 0.01,
+      "max_value": 1000000.00
+    },
+    "currency_validation": {
+      "config_file": "currencies.json"
+    },
+    "timestamp_validation": {
+      "format": "%Y-%m-%d %H:%M:%S",
+      "max_future_days": 1
+    }
+  },
+  "data_quality_thresholds": {
+    "critical_pass_rate": 0.95,
+    "warning_pass_rate": 0.90
+  },
+  "report_settings": {
+    "output_format": ["csv", "excel", "html"],
+    "include_failed_records": true,
+    "max_failed_records_display": 100
+  }
+}

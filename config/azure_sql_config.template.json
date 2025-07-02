@@ -1,0 +1,19 @@
+{
+    "azure_sql": {
+        "server": "your-server.database.windows.net",
+        "database": "your-database-name",
+        "username": "your-username", 
+        "password": "your-password",
+        "driver": "{ODBC Driver 17 for SQL Server}",
+        "connection_timeout": 30,
+        "command_timeout": 30
+    },
+    "tables": {
+        "transactions_table": "transactions",
+        "failed_records_table": "failed_transactions",
+        "quality_reports_table": "data_quality_reports"
+    },
+    "batch_size": 1000,
+    "use_azure_sql": false,
+    "fallback_to_csv": true
+}

@@ -1,0 +1,14 @@
+pandas>=1.5.0
+numpy>=1.24.0
+pyspark>=3.4.0
+matplotlib>=3.6.0
+seaborn>=0.12.0
+plotly>=5.15.0
+openpyxl>=3.1.0
+jupyter>=1.0.0
+pytest>=7.0.0
+python-dateutil>=2.8.0
+# Azure SQL Database dependencies
+pyodbc>=4.0.39
+sqlalchemy>=2.0.0
+azure-identity>=1.15.0

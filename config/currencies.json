@@ -1,0 +1,8 @@
+{
+  "approved_currencies": [
+    "USD", "EUR", "GBP", "JPY", "CAD", "AUD", "CHF", "CNY", 
+    "SEK", "NOK", "MXN", "NZD", "SGD", "HKD", "KRW", "INR",
+    "BRL", "ZAR", "RUB", "TRY", "PLN", "CZK", "HUF", "ILS",
+    "THB", "MYR", "PHP", "IDR", "VND", "EGP", "AED", "SAR"
+  ]
+}
