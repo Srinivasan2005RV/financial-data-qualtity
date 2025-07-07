@@ -5,7 +5,7 @@ This project implements a comprehensive, production-ready data quality framework
 
 **Built for:** Financial institutions requiring robust transaction data validation  
 **Technology Stack:** Python, Pandas, PySpark-ready architecture, Jupyter Notebooks  
-**Author:** [Your Name] - Internship Project  
+**Author:** Srinivasan V - Internship Project  
 **Date:** July 2025
 
 ## Key Features
