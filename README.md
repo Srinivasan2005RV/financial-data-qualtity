@@ -182,10 +182,9 @@ For detailed technical documentation, see:
 - `tests/test_validators.py` - Test cases and edge case handling
 
 ## Contact & Support
-**Project Author:** [Your Name]  
-**Institution:** [Your Institution/Company]  
-**Email:** [Your Email]  
-**Project Date:** July 2025  
+**Project Author:** Srinivasan V   
+**Email:** srinisamy2005@gmail.com
+ 
 
 ---
 *This framework was developed as part of an internship project focusing on financial data quality management and governance.*
